@@ -39,27 +39,45 @@
   width: 1280px;
   margin: auto;
   margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.download-sec-left-side{
+  width: 557px;  
 }
 
 .title {
   color: black;
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 65px;
-  width: 557px;
-  height: 198px;
+ 
 }
 .text {
-  width: 550px;
-  height: 120px;
   font-size: 24px;
   line-height: 28px;
+  font-weight: 400;
   opacity: 0.5;
   margin-top: 25px;
 }
 .buttons {
   background-color: black;
+  color: #fff;
   margin-top: 62px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  column-gap: 10px;
+  margin-top: 62px;
+  padding: 13px 32px;
+  display: inline-flex;
+  align-items: center;
+  
+
 }
 
 .download-sec-img {
